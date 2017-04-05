@@ -1,0 +1,13 @@
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Api\bin\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Api.deps.json
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Api\bin\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Api.runtimeconfig.json
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Api\bin\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Api.runtimeconfig.dev.json
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Api\bin\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Api.dll
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Api\bin\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Api.pdb
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Api\obj\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Api.csprojResolveAssemblyReference.cache
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Api\obj\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Api.AssemblyInfo.cs
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Api\obj\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Api.dll
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Api\obj\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Api.pdb
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Api\bin\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Core.dll
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Api\bin\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Service.dll
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Api\bin\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Service.pdb
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Api\bin\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Core.pdb

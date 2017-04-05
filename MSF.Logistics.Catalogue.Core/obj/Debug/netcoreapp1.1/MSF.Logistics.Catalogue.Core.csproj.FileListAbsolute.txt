@@ -1,0 +1,6 @@
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Core\bin\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Core.deps.json
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Core\bin\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Core.dll
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Core\bin\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Core.pdb
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Core\obj\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Core.AssemblyInfo.cs
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Core\obj\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Core.dll
+C:\dev\MSF.Logistics.Catalogue\MSF.Logistics.Catalogue.Core\obj\Debug\netcoreapp1.1\MSF.Logistics.Catalogue.Core.pdb

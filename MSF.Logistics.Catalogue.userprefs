@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{7E306B64-73CC-4134-A2F3-0ED8D8604E1C}|Unit Tests">
+  <MonoDevelop.Ide.ItemProperties.MSF.Logistics.Catalogue.Api PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MSF.Logistics.Catalogue.Test/UnitTest1.cs">
+    <Files>
+      <File FileName="MSF.Logistics.Catalogue.Core/Interfaces/IProductRepository.cs" Line="1" Column="1" />
+      <File FileName="MSF.Logistics.Catalogue.Test/UnitTest1.cs" Line="1" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MSF.Logistics.Catalogue.Test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
