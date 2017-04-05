@@ -28,7 +28,25 @@ namespace MSF.Logistics.Catalogue.Api
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-            services.AddMvc();
+            //services.AddMvc();
+
+			//Identity Server
+			services.AddCors(options =>
+			{
+				// this defines a CORS policy called "default"
+				options.AddPolicy("default", policy =>
+				{
+					policy.WithOrigins("http://localhost:5003")
+						.AllowAnyHeader()
+						.AllowAnyMethod();
+				});
+
+
+			});
+
+			services.AddMvcCore()
+				.AddAuthorization()
+				.AddJsonFormatters();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,6 +54,32 @@ namespace MSF.Logistics.Catalogue.Api
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
+
+			// this uses the policy called "default"
+			app.UseCors("default");
+
+			/*app.UseIdentityServerAuthentication(new IdentityServerAuthenticationOptions
+			{
+				//Authority = "http://msf-identityserver.azurewebsites.net",
+				Authority = "http://localhost:5000",
+
+				RequireHttpsMetadata = false,
+
+				ApiName = "api1"
+			});*/
+
+			app.UseJwtBearerAuthentication(new JwtBearerOptions
+	        {
+	            // base-address of your identityserver
+	            Authority = "http://localhost:5000",
+
+	            // name of the API resource
+	            Audience = "api1",
+				RequireHttpsMetadata = false
+
+	            //options.AutomaticAuthenticate = true,
+	            //options.AutomaticChallenge = true
+	        });
 
             app.UseMvc();
         }
