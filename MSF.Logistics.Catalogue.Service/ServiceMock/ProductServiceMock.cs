@@ -8,6 +8,11 @@ namespace MSF.Logistics.Catalogue.Service
 {
     public class ProductServiceMock : IProductService
     {
+		public ProductServiceMock()
+		{
+
+		}
+
         public IEnumerable<Product> GetAll()
         {
             //do the mocking
@@ -34,13 +39,16 @@ namespace MSF.Logistics.Catalogue.Service
 
         public Product Get(int id)
         {
-            return new Product()
+			var prodDataModel = new MSF.Logistics.Catalogue.Core.DataModels.Product()
             {
                 ProductName = "Mock Shelter 1",
                 ProductID = id,
                 SupplierId = 1,
                 DateCreated = DateTime.Now
             };
+
+			return ProductMapper.MapProduct(prodDataModel);
+
         }
 
         public void Add(Product prod)

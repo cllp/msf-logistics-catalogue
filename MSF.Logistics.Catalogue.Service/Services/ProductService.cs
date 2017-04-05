@@ -13,7 +13,6 @@ namespace MSF.Logistics.Catalogue.Service
         //{
         //    _unitOfWork = unitOfWork;
         //}
-        private readonly IProductRepository _productRepository;
 
         public IEnumerable<Product> GetAll()
         {
@@ -30,19 +29,6 @@ namespace MSF.Logistics.Catalogue.Service
             //return _unitOfWork.ProductRepository.Get(id);
         }
         
-        /*public MemoryStream GetProductPhoto(int productPhotoID)
-        {
-            return _unitOfWork.ProductRepository.GetProductPhoto(productPhotoID);
-        }
-         public MemoryStream GetProductThumbNail(int productPhotoID)
-         {
-             return _unitOfWork.ProductRepository.GetProductThumbnail(productPhotoID);
-         }
-
-         /*public Product GetProductInformation()
-         {
-             return _unitOfWork.ProductRepository.GetProductInformation();
-         }*/
         public void Add(Product prod)
         {
             //_unitOfWork.ProductRepository.Add(prod);
