@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using MSF.Logistics.Catalogue.Service;
 using MSF.Logistics.Catalogue.Service.ViewModels;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace MSF.Logistics.Catalogue.Api.Controllers
 {
@@ -18,8 +19,23 @@ namespace MSF.Logistics.Catalogue.Api.Controllers
 		[HttpGet]
 		public IActionResult Get()
 		{
-			return new JsonResult(from c in User.Claims select new { c.Type, c.Value });
+			
+			var results = new JsonResult(from c in User.Claims select new { c.Type, c.Value });
+
+			var name = User.Identity.Name;
+			var isAuthenticated = User.Identity.IsAuthenticated;
+			var authenticationType = User.Identity.AuthenticationType;
+			var isValidator = User.IsInRole("validator");
+			var userClaims = User.Claims;
+
+			foreach (var claim in userClaims)
+			{
+				var cp = claim.Properties;
+			}
+
+
 			//return new JsonResult(User);
+			return results;
 		}
 
 		/*[HttpGet]

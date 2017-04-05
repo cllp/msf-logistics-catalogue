@@ -58,16 +58,7 @@ namespace MSF.Logistics.Catalogue.Api
 			// this uses the policy called "default"
 			app.UseCors("default");
 
-			/*app.UseIdentityServerAuthentication(new IdentityServerAuthenticationOptions
-			{
-				//Authority = "http://msf-identityserver.azurewebsites.net",
-				Authority = "http://localhost:5000",
-
-				RequireHttpsMetadata = false,
-
-				ApiName = "api1"
-			});*/
-
+			/*
 			app.UseJwtBearerAuthentication(new JwtBearerOptions
 	        {
 	            // base-address of your identityserver
@@ -79,7 +70,15 @@ namespace MSF.Logistics.Catalogue.Api
 
 	            //options.AutomaticAuthenticate = true,
 	            //options.AutomaticChallenge = true
-	        });
+	        });*/
+
+			app.UseIdentityServerAuthentication(new IdentityServerAuthenticationOptions
+			{
+				Authority = "http://localhost:5000",
+				RequireHttpsMetadata = false,
+
+				ApiName = "api1"
+			});
 
             app.UseMvc();
         }

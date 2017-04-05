@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSF.Logistics.Catalogue.Api
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSF.Logistics.Catalogue.Service", "MSF.Logistics.Catalogue.Service\MSF.Logistics.Catalogue.Service.csproj", "{5D9CAD3A-9918-40CB-BDA0-3093697C0D94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptClient", "JavaScriptClient\JavaScriptClient.csproj", "{C425C11C-36F1-42E3-B322-D9A8D5461177}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5D9CAD3A-9918-40CB-BDA0-3093697C0D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D9CAD3A-9918-40CB-BDA0-3093697C0D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D9CAD3A-9918-40CB-BDA0-3093697C0D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C425C11C-36F1-42E3-B322-D9A8D5461177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C425C11C-36F1-42E3-B322-D9A8D5461177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C425C11C-36F1-42E3-B322-D9A8D5461177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C425C11C-36F1-42E3-B322-D9A8D5461177}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

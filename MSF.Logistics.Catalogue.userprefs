@@ -1,23 +1,17 @@
 ﻿<Properties StartupConfiguration="{0C62CDBA-9E34-40CB-9D29-5C8DF6583674}|Default">
   <MonoDevelop.Ide.ItemProperties.MSF.Logistics.Catalogue.Api PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MSF.Logistics.Catalogue.Api/Controllers/IdentityController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MSF.Logistics.Catalogue.Api/Startup.cs">
     <Files>
-      <File FileName="MSF.Logistics.Catalogue.Service/ServiceMock/ProductServiceMock.cs" Line="50" Column="51" />
-      <File FileName="MSF.Logistics.Catalogue.Api/Controllers/ProductController.cs" Line="11" Column="5" />
-      <File FileName="MSF.Logistics.Catalogue.Core/DataModels/Product.cs" Line="25" Column="1" />
-      <File FileName="MSF.Logistics.Catalogue.Service/Mapper/ProductMapper.cs" Line="6" Column="35" />
-      <File FileName="MSF.Logistics.Catalogue.Service/Services/ProductService.cs" Line="21" Column="29" />
-      <File FileName="MSF.Logistics.Catalogue.Api/Startup.cs" Line="78" Column="33" />
-      <File FileName="MSF.Logistics.Catalogue.Api/Program.cs" Line="22" Column="26" />
-      <File FileName="MSF.Logistics.Catalogue.Api/appsettings.json" Line="1" Column="1" />
-      <File FileName="MSF.Logistics.Catalogue.Api/Controllers/IdentityController.cs" Line="29" Column="4" />
-      <File FileName="MSF.Logistics.Catalogue.Api/Controllers/ValuesController.cs" Line="20" Column="10" />
+      <File FileName="MSF.Logistics.Catalogue.Api/Controllers/IdentityController.cs" Line="25" Column="87" />
+      <File FileName="MSF.Logistics.Catalogue.Api/Startup.cs" Line="84" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.MSF.Logistics.Catalogue.Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/cllp/dev/msf-logistics-catalogue/MSF.Logistics.Catalogue.Api/Controllers/IdentityController.cs" relfile="MSF.Logistics.Catalogue.Api/Controllers/IdentityController.cs" line="23" column="76" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
