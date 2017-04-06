@@ -7,3 +7,12 @@
 /Users/cllp/dev/msf-logistics-catalogue/JavaScriptClient/obj/Debug/netcoreapp1.0/JavaScriptClient.AssemblyInfo.cs
 /Users/cllp/dev/msf-logistics-catalogue/JavaScriptClient/obj/Debug/netcoreapp1.0/JavaScriptClient.dll
 /Users/cllp/dev/msf-logistics-catalogue/JavaScriptClient/obj/Debug/netcoreapp1.0/JavaScriptClient.pdb
+C:\dev\msf-logistics-catalogue\JavaScriptClient\bin\Debug\netcoreapp1.0\JavaScriptClient.deps.json
+C:\dev\msf-logistics-catalogue\JavaScriptClient\bin\Debug\netcoreapp1.0\JavaScriptClient.runtimeconfig.json
+C:\dev\msf-logistics-catalogue\JavaScriptClient\bin\Debug\netcoreapp1.0\JavaScriptClient.runtimeconfig.dev.json
+C:\dev\msf-logistics-catalogue\JavaScriptClient\bin\Debug\netcoreapp1.0\JavaScriptClient.dll
+C:\dev\msf-logistics-catalogue\JavaScriptClient\bin\Debug\netcoreapp1.0\JavaScriptClient.pdb
+C:\dev\msf-logistics-catalogue\JavaScriptClient\obj\Debug\netcoreapp1.0\JavaScriptClient.AssemblyInfo.cs
+C:\dev\msf-logistics-catalogue\JavaScriptClient\obj\Debug\netcoreapp1.0\JavaScriptClient.dll
+C:\dev\msf-logistics-catalogue\JavaScriptClient\obj\Debug\netcoreapp1.0\JavaScriptClient.pdb
+C:\dev\msf-logistics-catalogue\JavaScriptClient\obj\Debug\netcoreapp1.0\JavaScriptClient.csprojResolveAssemblyReference.cache
