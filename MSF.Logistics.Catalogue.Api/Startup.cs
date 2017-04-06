@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Console;
 
 namespace MSF.Logistics.Catalogue.Api
 {
@@ -54,6 +55,10 @@ namespace MSF.Logistics.Catalogue.Api
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
+			loggerFactory.AddProvider(
+  					new ConsoleLoggerProvider((text, logLevel) => logLevel >= LogLevel.Trace, true));
+
+			//loggerFactory..AddFile("Logs/myapp-{Date}.txt");
 
 			// this uses the policy called "default"
 			app.UseCors("default");
