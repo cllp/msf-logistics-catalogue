@@ -27,6 +27,28 @@ LOG ON
 USE [msf-logistics-catalogue]
 GO
 
+CREATE XML SCHEMA COLLECTION ProductSchema AS
+N'<xs:schema xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://tempuri.org/XMLSchema.xsd" elementFormDefault="qualified">
+	<xs:element name="Product">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ShelterMetaData">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Lifespan" type="xs:int"/>
+							<xs:element name="SizeOfInfrastructure" type="xs:int"/>
+							<xs:element name="ThermalValue" type="xs:int"/>
+							<xs:element name="CostEffectiveness" type="xs:int"/>
+							<xs:element name="Setuptime" type="xs:int"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>';
+GO
+
 --Create Tables
 CREATE TABLE Supplier (
 		SupplierId int NOT NULL IDENTITY(1,1) PRIMARY KEY CLUSTERED,
@@ -59,7 +81,7 @@ CREATE TABLE Product (
 		ProductTypeId int NOT NULL FOREIGN KEY REFERENCES ProductType(ProductTypeId),
 		SupplierId int NOT NULL FOREIGN KEY REFERENCES Supplier(SupplierId),
 		ProductName nVarchar(255) NOT NULL,
-		ProductMetaData xml, --För att ha "filtrerings data" 
+		ProductMetaData xml (ProductSchema), --För att ha "filtrerings data" 
 		DateCreated datetime NOT NULL default GETDATE(),
 		bActive bit NOT NULL default 1
 	)ON [PRIMARY]
